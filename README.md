@@ -2,6 +2,8 @@
 ---
 This app gets your height and weight in metric system, calculates your BMI and tells you about your weight's situation.
 
+**Doesn't support floats as input**
+
 
 ## Sample:
 
