@@ -1,11 +1,11 @@
 height = (input("Please enter your height (M): "))
 while not(height.isnumeric()):
-    print("wrong input! please enter a number")
+    print("wrong input! please enter an integer")
     height = (input("Please enter your height (M): "))
 else:
     weight = (input("Please enter your weight (Kg): "))
     while not(weight.isnumeric()):
-        print("wrong input! please enter a number")
+        print("wrong input! please enter an integer")
         weight = (input("Please enter your weight (Kg): "))
 
 weight = float(weight)
